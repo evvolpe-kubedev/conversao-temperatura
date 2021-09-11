@@ -3,7 +3,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
-ARG ARG_N_PORT=8080
-ENV NODE_PORT=${ARG_N_PORT}
+ARG N_PORT=8080
+ENV NODE_PORT=${N_PORT}
 EXPOSE $NODE_PORT
-CMD [ "npm" , "server.js" ]
+CMD [ "node" , "server.js" ]
