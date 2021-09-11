@@ -13,12 +13,9 @@ Os comandos executados acima vão construir uma imagem e a armazenar no Docker H
 Executar a linha de comando para executar o container com a imagem que geramos e armazenamos na nuvema: </br></br>
 `docker run -itd evvolpe/conversao-temperatura -p 8080:8080`</br></br>
 Para listar o container em execução: </br>
-`docker container ls` </br>
+`docker container ls` </br></br>
 Para listar os containers parados use:</br>
 `docker container ls -a` </br>
-
-Executar via prompt de comando para enviar a imagem 1.0 gerada local para o container register docker hub: </br></br>
-`docker push marcioalmeidarosa/conversao-temperatura:1.0`</br></br>
 
 #Verificando a imagem enviada para o docker Hub
 [Clique para acessar a imagem...](https://hub.docker.com/repository/docker/evvolpe/conversao-temperatura)
