@@ -18,4 +18,4 @@ Para listar os containers parados use:</br>
 `docker container ls -a` </br>
 
 #Verificando a imagem enviada para o docker Hub
-[Clique para acessar a imagem...](https://hub.docker.com/repository/docker/evvolpe/conversao-temperatura)
+[Clique aqui para verificar a imagem no Hub](https://hub.docker.com/repository/docker/evvolpe/conversao-temperatura)
